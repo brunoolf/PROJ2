@@ -39,4 +39,5 @@ antes de fechar o arquivo usando a função 'fclose'.
 # Print da execução
 
 Saída com o momento no qual a última pessoa saiu da escada rolante:
+
 <img src="/Prints/saida.png">
