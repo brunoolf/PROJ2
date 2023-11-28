@@ -22,16 +22,11 @@
 - Executar o arquivo compilado <code>./"nome-do-arquivo"</code>
 
 
-# Exercícios
+# Sobre o projeto
 
-- Item A) O que mudou foi a utilização do mutex para fazer exclusão mútua e assim evitar a concorrência entre threads que estavam tentando acessar e modificar a variável 'sum' ao mesmo tempo o que estava fazendo a versão anterior gerar resultados inconsistentes e imprecisos.
-
-- Item B) No código orgininal, não havia controle do acesso a variável 'sum' o que estava causando modificações não corretas no valor da variável e, consequentemente, no valor do resultado também. Esse problema foi solucionado na segunda versão do código usando um mutex, que elimina as condições de corrida entre as threads.
 
 
 # Print da execução
 
 
-<img src="/Prints/execucao.jpeg">
-
-<img src="/Prints/execucao2.jpeg">
+<img src="/Prints/saida.png">
