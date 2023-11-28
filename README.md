@@ -36,6 +36,10 @@ manda a pessoa esperar a escada entrar para entrar. Por fim, atualiza o último 
 de saída ('last_time_exit') com base nas condições de entrada na escada e imprime o mesmo 
 antes de fechar o arquivo usando a função 'fclose'.
 
+Entrada com os dados:
+<br>
+<img src="/Prints/entrada.png">
+
 # Print da execução
 
 Saída com o momento no qual a última pessoa saiu da escada rolante:
