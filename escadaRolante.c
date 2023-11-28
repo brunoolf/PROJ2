@@ -4,14 +4,17 @@
 #include <stdio.h>
 
 int main() {
+    // Abertura do arquivo de entrada
     FILE *file = fopen("entrada.txt", "r");
 
+    // Mensagem de erro caso o arquivo esteja vazio
     if (file == NULL) {
         printf("Erro ao abrir o arquivo.\n");
         return 1;
     }
 
     int N;
+    // Leitura do arquivo de entrada
     fscanf(file, "%d", &N);
 
     int i, T, D, last_exit_time = 0, current_time = 0;
